@@ -1,5 +1,8 @@
 
-This copy of grbl-mega is a working prototype used to send binary spindle information (speed + direction) using the hardware SPI interface to another slave board that takes care of spindle control.
+This copy of grbl-mega is a working prototype used to send binary spindle information (speed + direction) using the hardware SPI interface to another slave board that will take care of spindle control.
+
+You can find a discussion about this project on this thread:
+https://github.com/grbl/grbl/issues/1490
 
 Changes are cleanly isolated and mainly done in spindle_control.c
 
