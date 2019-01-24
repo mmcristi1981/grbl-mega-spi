@@ -1,6 +1,10 @@
 
 This copy of grbl-mega is a working prototype used to send binary spindle information (speed + direction) using the hardware SPI interface to another slave board that takes care of spindle control.
 
+Changes are cleanly isolated and mainly done in spindle_control.c
+
+SPISlave.ino is the Arduino UNO test program. Connection is done using the normal Arduino SPI pins of MEGA and UNO.
+
 Please visit https://github.com/gnea/grbl-Mega for the original version.
 
 
