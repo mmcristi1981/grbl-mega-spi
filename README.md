@@ -7,7 +7,9 @@ SPISlave.ino is the Arduino UNO test program. Connection is done using the norma
 
 Please visit https://github.com/gnea/grbl-Mega for the original version.
 
+A screenshot of the serial monitor of the second board while the MEGA board is running a gcode file streamed from UGS.
 
+![UGS->MEGA->UNO](https://github.com/mmcristi1981/grbl-mega-spi/blob/master/grbl-mega-spi-spindle-speed.png?raw=true)
 ```
 List of Supported G-Codes in Grbl v1.1:
   - Non-Modal Commands: G4, G10L2, G10L20, G28, G30, G28.1, G30.1, G53, G92, G92.1
